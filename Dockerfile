@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-LABEL maintainer="Nikolas S <nikolas@admintuts.net>"
+LABEL maintainer="Sergey Bogomolov"
 # Host Specific Variable
 ARG NGINX_GUI=2000
 ENV NGINX_GUI $NGINX_GUI
