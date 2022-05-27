@@ -6,7 +6,7 @@
 
 ```sh
 git clone https://github.com/SBohomolov/nginx-geoip2.git
-cd nginx-rtmp-geoip2-alpine
+cd nginx-geoip2
 chmod +x docker-entrypoint.sh envsubst-on-templates.sh tune-worker-processes.sh
 docker build . -t your_image_tag
 ```
