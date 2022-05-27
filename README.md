@@ -5,7 +5,7 @@
 ## Building The Image
 
 ```sh
-git clone https://github.com/sceptic30/nginx-rtmp-geoip2-alpine
+git clone https://github.com/SBohomolov/nginx-geoip2.git
 cd nginx-rtmp-geoip2-alpine
 chmod +x docker-entrypoint.sh envsubst-on-templates.sh tune-worker-processes.sh
 docker build . -t your_image_tag
@@ -19,7 +19,6 @@ docker run -d --rm --name webserver -p 80:3080 -p 443:3443 your_image_tag
 
 > Current Image running in non-priviledged mode, under the user 'nginx'
 
-For more details please visit [Admintuts.net](https://admintuts.net/server-admin/docker/custom-nginx-docker-image-geoip2-rtmp-support/#final-nginx-dockerfile-with-geoip2-rtmp-tlsv1-3-support)
 
 ## How to enable GeoIP2 database
 
